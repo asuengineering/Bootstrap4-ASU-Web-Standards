@@ -1,4 +1,9 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+
+# Build tools. Code Kit config files can be ignored.
 *.codekit3
+
+# OS specific. .DS_Store can be ignored.
+.DS_Store
