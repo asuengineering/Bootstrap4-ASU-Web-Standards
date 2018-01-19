@@ -1,0 +1,19 @@
+// Custom SASS file for ASU's themed version of Bootstrap v4.
+
+// Overridden variables go here, before the imported scss files from the default library.
+
+// Your variable overrides
+
+// Include the rest of Bootstrap. The declarartions above this point will override anything within the "parent" theme.
+@import "../bootstrap/scss/bootstrap";
+
+/* At a minimum, the following components should be included if doing things on an individual level:
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
+@import "../bootstrap/scss/images";
+@import "../bootstrap/scss/code";
+@import "../bootstrap/scss/grid";
+*/
