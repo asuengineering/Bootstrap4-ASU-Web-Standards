@@ -6,4 +6,4 @@ _site/
 *.codekit3
 
 # OS specific. .DS_Store can be ignored.
-.DS_Store
+*.DS_Store
