@@ -1,0 +1,135 @@
+.bd-masthead {
+    position: relative;
+    padding: 3rem 15px;
+}
+
+.bd-masthead {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.bd-masthead .btn {
+    width: 100%;
+    padding: .8rem 2rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.bd-sidebar {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 320px;
+    flex: 0 1 320px;
+}
+
+.bd-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1000;
+    height: calc(100vh - 3rem);
+}
+
+.bd-sidebar {
+    padding: 0 20px 0 35px !important;
+}
+
+.sidebar-decoration{
+    background: linear-gradient(to right, #eee, #e5e5e5 50%, #d7d7d7 100%) 16.67% 0 / 10px 1px repeat-y, linear-gradient(to right, #eee, #eee 16.67%, #fff 16.67%) 0 0 / 100% 1px;
+}
+
+.kss-nav__menu {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.doc-style a{
+    color: #8c1d40;
+}
+
+@media screen and (min-width: 576px){
+    .bd-title {
+    font-size: 3rem;
+    }
+}
+
+.bd-title {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 992px) {
+    .bd-content>ol, .bd-content>p, .bd-content>ul {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .bd-lead {
+        max-width: 80%;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+.bd-lead {
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+#examples{
+    padding-top: 15px;
+}
+
+.bd-content a{
+    border-bottom: 1px dotted #8c1d40;
+    color: #8c1d40 !important;
+    text-decoration: none !important;
+    transition-property: color;
+    transition-duration: 0.5s;
+    font-weight: normal;
+}
+
+@media screen and (min-width: 576px){
+    .bd-example {
+        padding: 1.5rem;
+        margin-right: 0;
+        margin-left: 0;
+        border-width: .2rem;
+    }
+}
+
+.bd-example{
+    border: solid #f7f7f9;
+    width: 90%;
+}
+
+.highlight{
+    margin-bottom: 1rem;
+    background-color: #f7f7f9;
+}
+
+
+
+@media screen and (min-width: 576px){
+    .highlight {
+        padding: 1.5rem;
+    }
+}
+
+pre code{
+    word-break: normal;
+}
+
+.na {
+    color: #4f9fcf;
+}
+
+.s {
+    color: #d44950;
+}
+
+.nt {
+    color: #2f6f9f;
+}
