@@ -43,7 +43,7 @@
     list-style-type: none;
 }
 
-.doc-style a{
+.kss-nav__menu a{
     color: #8c1d40;
 }
 
@@ -82,9 +82,9 @@
     padding-top: 15px;
 }
 
-.bd-content a{
+.bd-lead a{
     border-bottom: 1px dotted #8c1d40;
-    color: #8c1d40 !important;
+    color: #8c1d40;
     text-decoration: none !important;
     transition-property: color;
     transition-duration: 0.5s;
@@ -132,4 +132,20 @@ pre code{
 
 .nt {
     color: #2f6f9f;
+}
+
+.bd-content>h2:not(:first-child) {
+    margin-top: 3rem;
+}
+
+.btn-highlight {     /* Button are displayed different in documentation than the rest */
+    width: 90%;
+    margin-bottom: 1rem;
+    background-color: #f7f7f9;
+}
+
+@media screen and (min-width: 576px){
+    .btn-highlight {
+        padding: 1.5rem;
+    }
 }
