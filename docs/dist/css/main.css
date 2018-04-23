@@ -108,6 +108,7 @@
 .highlight{
     margin-bottom: 1rem;
     background-color: #f7f7f9;
+    width: 90%;
 }
 
 
@@ -138,6 +139,10 @@ pre code{
     margin-top: 3rem;
 }
 
+.bd-content>h3:not(:first-child) {
+    margin-top: 2rem;
+}
+
 .btn-highlight {     /* Button are displayed different in documentation than the rest */
     width: 90%;
     margin-bottom: 1rem;
@@ -148,4 +153,8 @@ pre code{
     .btn-highlight {
         padding: 1.5rem;
     }
+}
+
+.bd-example>.form-control+.form-control {
+    margin-top: .5rem;
 }

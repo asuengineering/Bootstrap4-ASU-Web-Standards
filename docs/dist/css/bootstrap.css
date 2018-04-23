@@ -2655,7 +2655,11 @@ tbody.collapse.show {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
 
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+.nav-pills .nav-link {
+  border-radius: 0.25rem; }
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
   background-color: #8c1d40; }
 
 .nav-fill .nav-item {

@@ -67,26 +67,21 @@
 }
 
 
-// Nav Pills
 //
-// Used in conjunction with `.nav`.
+// Pills
 //
-// Markup:
-// <ul class="nav nav-pills">
-//   <li role="presentation" class="active"><a href="#">Home</a></li>
-//   <li role="presentation"><a href="#">Profile</a></li>
-//   <li role="presentation"><a href="#">Messages</a></li>
-// </ul>
-//
-// Styleguide navigation.nav-pills
-.nav-pills > li.active > a {
-  &,
-  &:hover,
-  &:focus {
-    background-color: $primary;
+
+.nav-pills {
+  .nav-link {
+    @include border-radius($nav-pills-border-radius);
+  }
+
+  .nav-link.active,
+  .show > .nav-link {
+    color: $nav-pills-link-active-color;
+    background-color: $nav-pills-link-active-bg;
   }
 }
-
 
 
 //
