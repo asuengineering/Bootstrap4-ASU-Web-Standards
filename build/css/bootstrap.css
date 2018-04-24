@@ -2632,24 +2632,22 @@ tbody.collapse.show {
     color: #6c757d; }
 
 .nav-tabs {
-  border-bottom: 1px solid #dee2e6; }
+  border-bottom: 1px solid #8c1d40; }
   .nav-tabs .nav-item {
-    margin-bottom: -1px; }
-  .nav-tabs .nav-link {
-    border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem; }
-    .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-      border-color: #e9ecef #e9ecef #dee2e6; }
-    .nav-tabs .nav-link.disabled {
+    border-top: 5px solid transparent; }
+    .nav-tabs .nav-item:hover, .nav-tabs .nav-item:focus {
+      border-top: 5px solid #8c1d40; }
+    .nav-tabs .nav-item.disabled {
       color: #6c757d;
       background-color: transparent;
       border-color: transparent; }
-  .nav-tabs .nav-link.active,
-  .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
-    background-color: #fff;
-    border-color: #dee2e6 #dee2e6 #fff; }
+  .nav-tabs .nav-link {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #777 #777 transparent #777;
+    border-bottom: none; }
+  .nav-tabs .nav-item.show {
+    border-top: 5px solid #8c1d40; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
     border-top-left-radius: 0;

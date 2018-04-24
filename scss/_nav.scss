@@ -30,18 +30,13 @@
 //
 
 .nav-tabs {
-  border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
+  border-bottom: $nav-tabs-border-width solid $primary;
 
   .nav-item {
-    margin-bottom: -$nav-tabs-border-width;
-  }
+    border-top: 5px solid transparent;
 
-  .nav-link {
-    border: $nav-tabs-border-width solid transparent;
-    @include border-top-radius($nav-tabs-border-radius);
-
-    @include hover-focus {
-      border-color: $nav-tabs-link-hover-border-color;
+   @include hover-focus {
+        border-top: 5px solid $primary;
     }
 
     &.disabled {
@@ -50,13 +45,18 @@
       border-color: transparent;
     }
   }
-
-  .nav-link.active,
-  .nav-item.show .nav-link {
-    color: $nav-tabs-link-active-color;
-    background-color: $nav-tabs-link-active-bg;
-    border-color: $nav-tabs-link-active-border-color;
+    .nav-link {
+        border-width: $nav-tabs-border-width;
+        border-style: solid;
+        border-color: #777 #777 transparent #777;
+        border-bottom: none;
   }
+
+    
+    .nav-item.show{
+        border-top: 5px solid $primary;
+    }
+    
 
   .dropdown-menu {
     // Make dropdown border overlap tab border
