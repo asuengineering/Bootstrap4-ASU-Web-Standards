@@ -10,6 +10,7 @@
 
 // stylelint-disable
 $white:    #fff !default;
+$gray:     #dbdbdb !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -36,7 +37,7 @@ $grays: map-merge((
 
 $maroon:  #8c1d40 !default;    // Added maroon colour
 $gold:    #ffc627 !default;    // Added gold colour
-$blue:    #007bff !default;
+$blue:    #007bb6 !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -67,9 +68,9 @@ $colors: map-merge((
 ), $colors);
 
 $primary:       $maroon !default;   // Changing Primary colour to Maroon
-$secondary:     $gray-600 !default;
+$secondary:     $gray !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          $blue !default;
 $warning:       $gold !default;
 $danger:        $red !default;
 $dark:          $gray-800 !default;    // Removed light theme
@@ -77,7 +78,7 @@ $dark:          $gray-800 !default;    // Removed light theme
 $theme-colors: () !default;
 $theme-colors: map-merge((
   "primary":    $primary,
-  "secondary":  $gold,
+  "secondary":  $secondary,
   "success":    $success,
   "info":       $info,
   "warning":    $gold,
