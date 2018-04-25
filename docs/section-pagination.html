@@ -4,12 +4,19 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="dist/css/bootstrap.css"/>
       
     <!-- Custom page CSS -->
     <link rel="stylesheet" type="text/css" href="dist/css/main.css">
+      <script>
+        $(document).ready(function(){
+            $(".bd-sidebar").load("http://127.0.0.1:8080/sidebar.html");
+        });
+    </script>
   </head>
   <body class="sidebar-decoration">
     <header class="navbar navbar-dark bg-dark bd-navbar">
@@ -20,115 +27,7 @@
     <div class="container-fluid doc-style">
         <div class="row flex-xl-nowrap">
             <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
-                <nav class="kss-nav">
-                    <ul class="kss-nav__menu">
-                      <li class="kss-nav__menu-item">
-                        <a href="./index.html">
-                          <span class="kss-nav__name">Overview</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-alerts.html">
-                          <span class="kss-nav__name">Alerts</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-badges.html">
-                            <span class="kss-nav__name">Badges</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-breadcrumbs.html">
-                            <span class="kss-nav__name">Breadcrumbs</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-buttons.html">
-                            <span class="kss-nav__name">Buttons</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-buttonGroup.html">
-                            <span class="kss-nav__name">Button Groups</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-card.html">
-                            <span class="kss-nav__name">Card</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-carousel.html">
-                            <span class="kss-nav__name">Carousel</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-forms.html">
-                            <span class="kss-nav__name">Forms</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-collapse.html">
-                            <span class="kss-nav__name">Collapse</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-dropdown.html">
-                            <span class="kss-nav__name">Dropdowns</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-jumbotron.html">
-                            <span class="kss-nav__name">Jumbotron</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-inputGroups.html">
-                            <span class="kss-nav__name">Input Groups</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-list-groups.html">
-                            <span class="kss-nav__name">List groups</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-modals.html">
-                            <span class="kss-nav__name">Modals</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-navs.html">
-                            <span class="kss-nav__name">Navs</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-navigation.html">
-                            <span class="kss-nav__name">Navigation</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-pagination.html">
-                            <span class="kss-nav__name">Pagination</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-popovers.html">
-                            <span class="kss-nav__name">Popovers</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-tooltips.html">
-                            <span class="kss-nav__name">Tooltips</span>
-                        </a>
-                      </li>
-                      <li class="kss-nav__menu-item">
-                        <a href="section-progress.html">
-                            <span class="kss-nav__name">Progress</span>
-                        </a>
-                      </li>
-                    </ul>
-                </nav>
+                
             </div>
             <main class="col-12 col-md-9 col-xl-10 py-md-3 pl-md-5 bd-content" role="main">
                 <h1 class="bd-title" id="content">Heros</h1>
@@ -168,10 +67,5 @@
             </main>
         </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
  </body>
 </html>
